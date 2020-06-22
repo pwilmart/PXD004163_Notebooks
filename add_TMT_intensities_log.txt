@@ -1,0 +1,1198 @@
+
+===============================================================
+ add_TMT_intensities.py, v1.0.1, written by Phil Wilmarth, OHSU
+===============================================================
+results file: grouped_protein_summary_9.txt
+trimmed average intensity must exceed: 2000.0
+final zero values replaced with: 500.0
+getting intensities from SQT/TXT files
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr01_filtered.txt
+Total: 1017, reject: 118, net: 899, reject rate: 11.60%
+  Reject breakdown: empty: 5, weak: 113
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr02_filtered.txt
+Total: 1817, reject: 182, net: 1635, reject rate: 10.02%
+  Reject breakdown: empty: 7, weak: 175
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr03_filtered.txt
+Total: 3337, reject: 51, net: 3286, reject rate: 1.53%
+  Reject breakdown: empty: 0, weak: 51
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr04_filtered.txt
+Total: 4835, reject: 21, net: 4814, reject rate: 0.43%
+  Reject breakdown: empty: 0, weak: 21
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr05_filtered.txt
+Total: 5610, reject: 26, net: 5584, reject rate: 0.46%
+  Reject breakdown: empty: 0, weak: 26
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr06_filtered.txt
+Total: 6369, reject: 13, net: 6356, reject rate: 0.20%
+  Reject breakdown: empty: 0, weak: 13
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr07_filtered.txt
+Total: 6973, reject: 15, net: 6958, reject rate: 0.22%
+  Reject breakdown: empty: 1, weak: 14
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr08_filtered.txt
+Total: 6658, reject: 38, net: 6620, reject rate: 0.57%
+  Reject breakdown: empty: 0, weak: 38
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr09_filtered.txt
+Total: 6668, reject: 64, net: 6604, reject rate: 0.96%
+  Reject breakdown: empty: 1, weak: 63
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr10_filtered.txt
+Total: 6669, reject: 52, net: 6617, reject rate: 0.78%
+  Reject breakdown: empty: 1, weak: 51
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr11_filtered.txt
+Total: 5936, reject: 62, net: 5874, reject rate: 1.04%
+  Reject breakdown: empty: 2, weak: 60
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr12_filtered.txt
+Total: 5449, reject: 54, net: 5395, reject rate: 0.99%
+  Reject breakdown: empty: 2, weak: 52
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr13_filtered.txt
+Total: 5333, reject: 73, net: 5260, reject rate: 1.37%
+  Reject breakdown: empty: 2, weak: 71
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr14_filtered.txt
+Total: 5007, reject: 69, net: 4938, reject rate: 1.38%
+  Reject breakdown: empty: 4, weak: 65
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr15_filtered.txt
+Total: 4282, reject: 77, net: 4205, reject rate: 1.80%
+  Reject breakdown: empty: 0, weak: 77
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr16_filtered.txt
+Total: 3546, reject: 109, net: 3437, reject rate: 3.07%
+  Reject breakdown: empty: 3, weak: 106
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr17_filtered.txt
+Total: 2987, reject: 103, net: 2884, reject rate: 3.45%
+  Reject breakdown: empty: 1, weak: 102
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr18_filtered.txt
+Total: 2584, reject: 100, net: 2484, reject rate: 3.87%
+  Reject breakdown: empty: 4, weak: 96
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr19_filtered.txt
+Total: 1982, reject: 101, net: 1881, reject rate: 5.10%
+  Reject breakdown: empty: 5, weak: 96
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr20_filtered.txt
+Total: 1534, reject: 131, net: 1403, reject rate: 8.54%
+  Reject breakdown: empty: 5, weak: 126
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr21_filtered.txt
+Total: 1153, reject: 123, net: 1030, reject rate: 10.67%
+  Reject breakdown: empty: 6, weak: 117
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr22_filtered.txt
+Total: 791, reject: 104, net: 687, reject rate: 13.15%
+  Reject breakdown: empty: 5, weak: 99
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr23_filtered.txt
+Total: 540, reject: 127, net: 413, reject rate: 23.52%
+  Reject breakdown: empty: 10, weak: 117
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr24_filtered.txt
+Total: 559, reject: 166, net: 393, reject rate: 29.70%
+  Reject breakdown: empty: 13, weak: 153
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr25_filtered.txt
+Total: 789, reject: 258, net: 531, reject rate: 32.70%
+  Reject breakdown: empty: 20, weak: 238
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr26_filtered.txt
+Total: 1161, reject: 419, net: 742, reject rate: 36.09%
+  Reject breakdown: empty: 30, weak: 389
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr27_filtered.txt
+Total: 1785, reject: 417, net: 1368, reject rate: 23.36%
+  Reject breakdown: empty: 24, weak: 393
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr28_filtered.txt
+Total: 2455, reject: 362, net: 2093, reject rate: 14.75%
+  Reject breakdown: empty: 27, weak: 335
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr29_filtered.txt
+Total: 2827, reject: 260, net: 2567, reject rate: 9.20%
+  Reject breakdown: empty: 11, weak: 249
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr30_filtered.txt
+Total: 3000, reject: 209, net: 2791, reject rate: 6.97%
+  Reject breakdown: empty: 13, weak: 196
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr31_filtered.txt
+Total: 2159, reject: 183, net: 1976, reject rate: 8.48%
+  Reject breakdown: empty: 11, weak: 172
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr32_filtered.txt
+Total: 1306, reject: 163, net: 1143, reject rate: 12.48%
+  Reject breakdown: empty: 13, weak: 150
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr33_filtered.txt
+Total: 943, reject: 145, net: 798, reject rate: 15.38%
+  Reject breakdown: empty: 7, weak: 138
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr34_filtered.txt
+Total: 1293, reject: 88, net: 1205, reject rate: 6.81%
+  Reject breakdown: empty: 3, weak: 85
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr35_filtered.txt
+Total: 1222, reject: 93, net: 1129, reject rate: 7.61%
+  Reject breakdown: empty: 4, weak: 89
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr36_filtered.txt
+Total: 2844, reject: 65, net: 2779, reject rate: 2.29%
+  Reject breakdown: empty: 2, weak: 63
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr37_filtered.txt
+Total: 3759, reject: 36, net: 3723, reject rate: 0.96%
+  Reject breakdown: empty: 1, weak: 35
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr38_filtered.txt
+Total: 3948, reject: 38, net: 3910, reject rate: 0.96%
+  Reject breakdown: empty: 3, weak: 35
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr39_filtered.txt
+Total: 4436, reject: 26, net: 4410, reject rate: 0.59%
+  Reject breakdown: empty: 0, weak: 26
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr40_filtered.txt
+Total: 4962, reject: 30, net: 4932, reject rate: 0.60%
+  Reject breakdown: empty: 1, weak: 29
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr41_filtered.txt
+Total: 5317, reject: 54, net: 5263, reject rate: 1.02%
+  Reject breakdown: empty: 0, weak: 54
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr42_filtered.txt
+Total: 5312, reject: 53, net: 5259, reject rate: 1.00%
+  Reject breakdown: empty: 3, weak: 50
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr43_filtered.txt
+Total: 3538, reject: 125, net: 3413, reject rate: 3.53%
+  Reject breakdown: empty: 3, weak: 122
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr44_filtered.txt
+Total: 1684, reject: 151, net: 1533, reject rate: 8.97%
+  Reject breakdown: empty: 4, weak: 147
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr45_filtered.txt
+Total: 1325, reject: 120, net: 1205, reject rate: 9.06%
+  Reject breakdown: empty: 4, weak: 116
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr46_filtered.txt
+Total: 930, reject: 138, net: 792, reject rate: 14.84%
+  Reject breakdown: empty: 5, weak: 133
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr47_filtered.txt
+Total: 1296, reject: 167, net: 1129, reject rate: 12.89%
+  Reject breakdown: empty: 4, weak: 163
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr48_filtered.txt
+Total: 1379, reject: 159, net: 1220, reject rate: 11.53%
+  Reject breakdown: empty: 3, weak: 156
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr49_filtered.txt
+Total: 1244, reject: 120, net: 1124, reject rate: 9.65%
+  Reject breakdown: empty: 2, weak: 118
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr50_filtered.txt
+Total: 1876, reject: 135, net: 1741, reject rate: 7.20%
+  Reject breakdown: empty: 5, weak: 130
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr51_filtered.txt
+Total: 2556, reject: 162, net: 2394, reject rate: 6.34%
+  Reject breakdown: empty: 6, weak: 156
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr52_filtered.txt
+Total: 2951, reject: 141, net: 2810, reject rate: 4.78%
+  Reject breakdown: empty: 1, weak: 140
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr53_filtered.txt
+Total: 2487, reject: 210, net: 2277, reject rate: 8.44%
+  Reject breakdown: empty: 11, weak: 199
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr54_filtered.txt
+Total: 2397, reject: 385, net: 2012, reject rate: 16.06%
+  Reject breakdown: empty: 14, weak: 371
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr55_filtered.txt
+Total: 1698, reject: 319, net: 1379, reject rate: 18.79%
+  Reject breakdown: empty: 15, weak: 304
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr56_filtered.txt
+Total: 1283, reject: 299, net: 984, reject rate: 23.30%
+  Reject breakdown: empty: 6, weak: 293
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr57_filtered.txt
+Total: 831, reject: 203, net: 628, reject rate: 24.43%
+  Reject breakdown: empty: 11, weak: 192
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr58_filtered.txt
+Total: 462, reject: 88, net: 374, reject rate: 19.05%
+  Reject breakdown: empty: 2, weak: 86
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr59_filtered.txt
+Total: 642, reject: 81, net: 561, reject rate: 12.62%
+  Reject breakdown: empty: 5, weak: 76
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr60_filtered.txt
+Total: 613, reject: 56, net: 557, reject rate: 9.14%
+  Reject breakdown: empty: 3, weak: 53
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr61_filtered.txt
+Total: 652, reject: 31, net: 621, reject rate: 4.75%
+  Reject breakdown: empty: 1, weak: 30
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr62_filtered.txt
+Total: 2209, reject: 29, net: 2180, reject rate: 1.31%
+  Reject breakdown: empty: 2, weak: 27
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr63_filtered.txt
+Total: 1903, reject: 39, net: 1864, reject rate: 2.05%
+  Reject breakdown: empty: 1, weak: 38
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr64_filtered.txt
+Total: 767, reject: 38, net: 729, reject rate: 4.95%
+  Reject breakdown: empty: 0, weak: 38
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr65_filtered.txt
+Total: 1483, reject: 55, net: 1428, reject rate: 3.71%
+  Reject breakdown: empty: 3, weak: 52
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr66_filtered.txt
+Total: 4025, reject: 84, net: 3941, reject rate: 2.09%
+  Reject breakdown: empty: 4, weak: 80
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr67_filtered.txt
+Total: 2250, reject: 83, net: 2167, reject rate: 3.69%
+  Reject breakdown: empty: 5, weak: 78
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr68_filtered.txt
+Total: 892, reject: 90, net: 802, reject rate: 10.09%
+  Reject breakdown: empty: 5, weak: 85
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr69_filtered.txt
+Total: 801, reject: 203, net: 598, reject rate: 25.34%
+  Reject breakdown: empty: 20, weak: 183
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr70_filtered.txt
+Total: 1621, reject: 115, net: 1506, reject rate: 7.09%
+  Reject breakdown: empty: 3, weak: 112
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr71_filtered.txt
+Total: 953, reject: 138, net: 815, reject rate: 14.48%
+  Reject breakdown: empty: 17, weak: 121
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr72_filtered.txt
+Total: 1871, reject: 235, net: 1636, reject rate: 12.56%
+  Reject breakdown: empty: 17, weak: 218
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr01_filtered.txt
+Total: 2204, reject: 106, net: 2098, reject rate: 4.81%
+  Reject breakdown: empty: 2, weak: 104
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr02_filtered.txt
+Total: 1264, reject: 224, net: 1040, reject rate: 17.72%
+  Reject breakdown: empty: 12, weak: 212
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr03_filtered.txt
+Total: 1452, reject: 193, net: 1259, reject rate: 13.29%
+  Reject breakdown: empty: 3, weak: 190
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr04_filtered.txt
+Total: 1645, reject: 131, net: 1514, reject rate: 7.96%
+  Reject breakdown: empty: 5, weak: 126
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr05_filtered.txt
+Total: 1602, reject: 139, net: 1463, reject rate: 8.68%
+  Reject breakdown: empty: 3, weak: 136
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr06_filtered.txt
+Total: 1781, reject: 149, net: 1632, reject rate: 8.37%
+  Reject breakdown: empty: 4, weak: 145
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr07_filtered.txt
+Total: 2333, reject: 139, net: 2194, reject rate: 5.96%
+  Reject breakdown: empty: 8, weak: 131
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr08_filtered.txt
+Total: 1726, reject: 189, net: 1537, reject rate: 10.95%
+  Reject breakdown: empty: 7, weak: 182
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr09_filtered.txt
+Total: 2058, reject: 141, net: 1917, reject rate: 6.85%
+  Reject breakdown: empty: 11, weak: 130
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr10_filtered.txt
+Total: 2326, reject: 114, net: 2212, reject rate: 4.90%
+  Reject breakdown: empty: 9, weak: 105
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr11_filtered.txt
+Total: 2114, reject: 104, net: 2010, reject rate: 4.92%
+  Reject breakdown: empty: 7, weak: 97
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr12_filtered.txt
+Total: 2202, reject: 82, net: 2120, reject rate: 3.72%
+  Reject breakdown: empty: 2, weak: 80
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr13_filtered.txt
+Total: 2428, reject: 93, net: 2335, reject rate: 3.83%
+  Reject breakdown: empty: 4, weak: 89
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr14_filtered.txt
+Total: 2409, reject: 72, net: 2337, reject rate: 2.99%
+  Reject breakdown: empty: 2, weak: 70
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr15_filtered.txt
+Total: 2494, reject: 40, net: 2454, reject rate: 1.60%
+  Reject breakdown: empty: 3, weak: 37
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr16_filtered.txt
+Total: 2469, reject: 56, net: 2413, reject rate: 2.27%
+  Reject breakdown: empty: 4, weak: 52
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr17_filtered.txt
+Total: 2610, reject: 42, net: 2568, reject rate: 1.61%
+  Reject breakdown: empty: 1, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr18_filtered.txt
+Total: 2818, reject: 42, net: 2776, reject rate: 1.49%
+  Reject breakdown: empty: 1, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr19_filtered.txt
+Total: 3095, reject: 48, net: 3047, reject rate: 1.55%
+  Reject breakdown: empty: 3, weak: 45
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr20_filtered.txt
+Total: 3226, reject: 44, net: 3182, reject rate: 1.36%
+  Reject breakdown: empty: 3, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr21_filtered.txt
+Total: 3218, reject: 59, net: 3159, reject rate: 1.83%
+  Reject breakdown: empty: 2, weak: 57
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr22_filtered.txt
+Total: 3387, reject: 50, net: 3337, reject rate: 1.48%
+  Reject breakdown: empty: 0, weak: 50
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr23_filtered.txt
+Total: 3120, reject: 48, net: 3072, reject rate: 1.54%
+  Reject breakdown: empty: 2, weak: 46
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr24_filtered.txt
+Total: 3522, reject: 49, net: 3473, reject rate: 1.39%
+  Reject breakdown: empty: 0, weak: 49
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr25_filtered.txt
+Total: 3477, reject: 58, net: 3419, reject rate: 1.67%
+  Reject breakdown: empty: 1, weak: 57
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr26_filtered.txt
+Total: 3330, reject: 53, net: 3277, reject rate: 1.59%
+  Reject breakdown: empty: 3, weak: 50
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr27_filtered.txt
+Total: 3231, reject: 44, net: 3187, reject rate: 1.36%
+  Reject breakdown: empty: 0, weak: 44
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr28_filtered.txt
+Total: 3106, reject: 37, net: 3069, reject rate: 1.19%
+  Reject breakdown: empty: 0, weak: 37
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr29_filtered.txt
+Total: 2961, reject: 52, net: 2909, reject rate: 1.76%
+  Reject breakdown: empty: 1, weak: 51
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr30_filtered.txt
+Total: 3009, reject: 55, net: 2954, reject rate: 1.83%
+  Reject breakdown: empty: 2, weak: 53
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr31_filtered.txt
+Total: 3106, reject: 48, net: 3058, reject rate: 1.55%
+  Reject breakdown: empty: 4, weak: 44
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr32_filtered.txt
+Total: 3334, reject: 71, net: 3263, reject rate: 2.13%
+  Reject breakdown: empty: 5, weak: 66
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr33_filtered.txt
+Total: 3334, reject: 47, net: 3287, reject rate: 1.41%
+  Reject breakdown: empty: 2, weak: 45
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr34_filtered.txt
+Total: 3140, reject: 41, net: 3099, reject rate: 1.31%
+  Reject breakdown: empty: 2, weak: 39
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr35_filtered.txt
+Total: 3214, reject: 32, net: 3182, reject rate: 1.00%
+  Reject breakdown: empty: 2, weak: 30
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr36_filtered.txt
+Total: 3053, reject: 38, net: 3015, reject rate: 1.24%
+  Reject breakdown: empty: 1, weak: 37
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr37_filtered.txt
+Total: 3010, reject: 24, net: 2986, reject rate: 0.80%
+  Reject breakdown: empty: 0, weak: 24
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr38_filtered.txt
+Total: 2839, reject: 29, net: 2810, reject rate: 1.02%
+  Reject breakdown: empty: 1, weak: 28
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr39_filtered.txt
+Total: 2763, reject: 25, net: 2738, reject rate: 0.90%
+  Reject breakdown: empty: 0, weak: 25
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr40_filtered.txt
+Total: 2724, reject: 44, net: 2680, reject rate: 1.62%
+  Reject breakdown: empty: 1, weak: 43
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr41_filtered.txt
+Total: 2812, reject: 60, net: 2752, reject rate: 2.13%
+  Reject breakdown: empty: 3, weak: 57
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr42_filtered.txt
+Total: 2543, reject: 33, net: 2510, reject rate: 1.30%
+  Reject breakdown: empty: 0, weak: 33
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr43_filtered.txt
+Total: 2751, reject: 46, net: 2705, reject rate: 1.67%
+  Reject breakdown: empty: 0, weak: 46
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr44_filtered.txt
+Total: 2819, reject: 47, net: 2772, reject rate: 1.67%
+  Reject breakdown: empty: 4, weak: 43
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr45_filtered.txt
+Total: 2865, reject: 54, net: 2811, reject rate: 1.88%
+  Reject breakdown: empty: 1, weak: 53
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr46_filtered.txt
+Total: 3405, reject: 81, net: 3324, reject rate: 2.38%
+  Reject breakdown: empty: 2, weak: 79
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr47_filtered.txt
+Total: 3688, reject: 41, net: 3647, reject rate: 1.11%
+  Reject breakdown: empty: 2, weak: 39
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr48_filtered.txt
+Total: 3425, reject: 73, net: 3352, reject rate: 2.13%
+  Reject breakdown: empty: 2, weak: 71
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr49_filtered.txt
+Total: 3136, reject: 61, net: 3075, reject rate: 1.95%
+  Reject breakdown: empty: 1, weak: 60
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr50_filtered.txt
+Total: 2919, reject: 61, net: 2858, reject rate: 2.09%
+  Reject breakdown: empty: 2, weak: 59
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr51_filtered.txt
+Total: 3040, reject: 69, net: 2971, reject rate: 2.27%
+  Reject breakdown: empty: 5, weak: 64
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr52_filtered.txt
+Total: 2737, reject: 62, net: 2675, reject rate: 2.27%
+  Reject breakdown: empty: 2, weak: 60
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr53_filtered.txt
+Total: 2742, reject: 79, net: 2663, reject rate: 2.88%
+  Reject breakdown: empty: 5, weak: 74
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr54_filtered.txt
+Total: 2867, reject: 86, net: 2781, reject rate: 3.00%
+  Reject breakdown: empty: 7, weak: 79
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr55_filtered.txt
+Total: 2591, reject: 54, net: 2537, reject rate: 2.08%
+  Reject breakdown: empty: 0, weak: 54
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr56_filtered.txt
+Total: 2382, reject: 65, net: 2317, reject rate: 2.73%
+  Reject breakdown: empty: 0, weak: 65
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr57_filtered.txt
+Total: 2689, reject: 65, net: 2624, reject rate: 2.42%
+  Reject breakdown: empty: 1, weak: 64
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr58_filtered.txt
+Total: 2025, reject: 73, net: 1952, reject rate: 3.60%
+  Reject breakdown: empty: 1, weak: 72
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr59_filtered.txt
+Total: 2244, reject: 85, net: 2159, reject rate: 3.79%
+  Reject breakdown: empty: 2, weak: 83
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr60_filtered.txt
+Total: 2245, reject: 107, net: 2138, reject rate: 4.77%
+  Reject breakdown: empty: 5, weak: 102
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr61_filtered.txt
+Total: 1926, reject: 80, net: 1846, reject rate: 4.15%
+  Reject breakdown: empty: 4, weak: 76
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr62_filtered.txt
+Total: 1690, reject: 66, net: 1624, reject rate: 3.91%
+  Reject breakdown: empty: 2, weak: 64
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr63_filtered.txt
+Total: 1914, reject: 95, net: 1819, reject rate: 4.96%
+  Reject breakdown: empty: 3, weak: 92
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr64_filtered.txt
+Total: 1685, reject: 79, net: 1606, reject rate: 4.69%
+  Reject breakdown: empty: 4, weak: 75
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr65_filtered.txt
+Total: 1616, reject: 103, net: 1513, reject rate: 6.37%
+  Reject breakdown: empty: 2, weak: 101
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr66_filtered.txt
+Total: 1601, reject: 103, net: 1498, reject rate: 6.43%
+  Reject breakdown: empty: 7, weak: 96
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr67_filtered.txt
+Total: 1352, reject: 113, net: 1239, reject rate: 8.36%
+  Reject breakdown: empty: 11, weak: 102
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr68_filtered.txt
+Total: 1487, reject: 105, net: 1382, reject rate: 7.06%
+  Reject breakdown: empty: 1, weak: 104
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr69_filtered.txt
+Total: 1331, reject: 84, net: 1247, reject rate: 6.31%
+  Reject breakdown: empty: 2, weak: 82
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr70_filtered.txt
+Total: 1222, reject: 122, net: 1100, reject rate: 9.98%
+  Reject breakdown: empty: 5, weak: 117
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr71_filtered.txt
+Total: 1080, reject: 94, net: 986, reject rate: 8.70%
+  Reject breakdown: empty: 5, weak: 89
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr72_filtered.txt
+Total: 1189, reject: 53, net: 1136, reject rate: 4.46%
+  Reject breakdown: empty: 2, weak: 51
+
+total PSMs with added reporter ions: 370925
+total PSMs with empty reporter ions: 648
+total PSMs with intensities below cutoff: 13880
+total PSMs with zeroed reporter ions: 14528
+overall reject rate: 3.92%
+length of tmt_intensity_dict: 370925
+length of peptide_dict: 117520
+length of unique_peptide_dict: 113969
+non-redundant peptide sequence count: 104698
+IPG3_peptide_results_9.txt
+..number of psms (scans): 188654
+IPG37_peptide_results_9.txt
+..number of psms (scans): 179037
+length peptide_sets_dict is: 8465
+
+===============================================================
+ add_TMT_intensities.py, v1.0.1, written by Phil Wilmarth, OHSU
+===============================================================
+results file: grouped_protein_summary_9.txt
+trimmed average intensity must exceed: 1500.0
+final zero values replaced with: 250.0
+getting intensities from SQT/TXT files
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr01_filtered.txt
+Total: 1017, reject: 75, net: 942, reject rate: 7.37%
+  Reject breakdown: empty: 5, weak: 70
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr02_filtered.txt
+Total: 1817, reject: 125, net: 1692, reject rate: 6.88%
+  Reject breakdown: empty: 7, weak: 118
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr03_filtered.txt
+Total: 3337, reject: 32, net: 3305, reject rate: 0.96%
+  Reject breakdown: empty: 0, weak: 32
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr04_filtered.txt
+Total: 4835, reject: 12, net: 4823, reject rate: 0.25%
+  Reject breakdown: empty: 0, weak: 12
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr05_filtered.txt
+Total: 5610, reject: 20, net: 5590, reject rate: 0.36%
+  Reject breakdown: empty: 0, weak: 20
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr06_filtered.txt
+Total: 6369, reject: 6, net: 6363, reject rate: 0.09%
+  Reject breakdown: empty: 0, weak: 6
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr07_filtered.txt
+Total: 6973, reject: 12, net: 6961, reject rate: 0.17%
+  Reject breakdown: empty: 1, weak: 11
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr08_filtered.txt
+Total: 6658, reject: 29, net: 6629, reject rate: 0.44%
+  Reject breakdown: empty: 0, weak: 29
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr09_filtered.txt
+Total: 6668, reject: 45, net: 6623, reject rate: 0.67%
+  Reject breakdown: empty: 1, weak: 44
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr10_filtered.txt
+Total: 6669, reject: 41, net: 6628, reject rate: 0.61%
+  Reject breakdown: empty: 1, weak: 40
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr11_filtered.txt
+Total: 5936, reject: 51, net: 5885, reject rate: 0.86%
+  Reject breakdown: empty: 2, weak: 49
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr12_filtered.txt
+Total: 5449, reject: 43, net: 5406, reject rate: 0.79%
+  Reject breakdown: empty: 2, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr13_filtered.txt
+Total: 5333, reject: 53, net: 5280, reject rate: 0.99%
+  Reject breakdown: empty: 2, weak: 51
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr14_filtered.txt
+Total: 5007, reject: 50, net: 4957, reject rate: 1.00%
+  Reject breakdown: empty: 4, weak: 46
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr15_filtered.txt
+Total: 4282, reject: 57, net: 4225, reject rate: 1.33%
+  Reject breakdown: empty: 0, weak: 57
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr16_filtered.txt
+Total: 3546, reject: 77, net: 3469, reject rate: 2.17%
+  Reject breakdown: empty: 3, weak: 74
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr17_filtered.txt
+Total: 2987, reject: 68, net: 2919, reject rate: 2.28%
+  Reject breakdown: empty: 1, weak: 67
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr18_filtered.txt
+Total: 2584, reject: 77, net: 2507, reject rate: 2.98%
+  Reject breakdown: empty: 4, weak: 73
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr19_filtered.txt
+Total: 1982, reject: 83, net: 1899, reject rate: 4.19%
+  Reject breakdown: empty: 5, weak: 78
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr20_filtered.txt
+Total: 1534, reject: 102, net: 1432, reject rate: 6.65%
+  Reject breakdown: empty: 5, weak: 97
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr21_filtered.txt
+Total: 1153, reject: 92, net: 1061, reject rate: 7.98%
+  Reject breakdown: empty: 6, weak: 86
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr22_filtered.txt
+Total: 791, reject: 77, net: 714, reject rate: 9.73%
+  Reject breakdown: empty: 5, weak: 72
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr23_filtered.txt
+Total: 540, reject: 103, net: 437, reject rate: 19.07%
+  Reject breakdown: empty: 10, weak: 93
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr24_filtered.txt
+Total: 559, reject: 139, net: 420, reject rate: 24.87%
+  Reject breakdown: empty: 13, weak: 126
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr25_filtered.txt
+Total: 789, reject: 210, net: 579, reject rate: 26.62%
+  Reject breakdown: empty: 20, weak: 190
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr26_filtered.txt
+Total: 1161, reject: 346, net: 815, reject rate: 29.80%
+  Reject breakdown: empty: 30, weak: 316
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr27_filtered.txt
+Total: 1785, reject: 327, net: 1458, reject rate: 18.32%
+  Reject breakdown: empty: 24, weak: 303
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr28_filtered.txt
+Total: 2455, reject: 298, net: 2157, reject rate: 12.14%
+  Reject breakdown: empty: 27, weak: 271
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr29_filtered.txt
+Total: 2827, reject: 198, net: 2629, reject rate: 7.00%
+  Reject breakdown: empty: 11, weak: 187
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr30_filtered.txt
+Total: 3000, reject: 172, net: 2828, reject rate: 5.73%
+  Reject breakdown: empty: 13, weak: 159
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr31_filtered.txt
+Total: 2159, reject: 150, net: 2009, reject rate: 6.95%
+  Reject breakdown: empty: 11, weak: 139
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr32_filtered.txt
+Total: 1306, reject: 134, net: 1172, reject rate: 10.26%
+  Reject breakdown: empty: 13, weak: 121
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr33_filtered.txt
+Total: 943, reject: 112, net: 831, reject rate: 11.88%
+  Reject breakdown: empty: 7, weak: 105
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr34_filtered.txt
+Total: 1293, reject: 70, net: 1223, reject rate: 5.41%
+  Reject breakdown: empty: 3, weak: 67
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr35_filtered.txt
+Total: 1222, reject: 71, net: 1151, reject rate: 5.81%
+  Reject breakdown: empty: 4, weak: 67
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr36_filtered.txt
+Total: 2844, reject: 52, net: 2792, reject rate: 1.83%
+  Reject breakdown: empty: 2, weak: 50
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr37_filtered.txt
+Total: 3759, reject: 24, net: 3735, reject rate: 0.64%
+  Reject breakdown: empty: 1, weak: 23
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr38_filtered.txt
+Total: 3948, reject: 26, net: 3922, reject rate: 0.66%
+  Reject breakdown: empty: 3, weak: 23
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr39_filtered.txt
+Total: 4436, reject: 15, net: 4421, reject rate: 0.34%
+  Reject breakdown: empty: 0, weak: 15
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr40_filtered.txt
+Total: 4962, reject: 15, net: 4947, reject rate: 0.30%
+  Reject breakdown: empty: 1, weak: 14
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr41_filtered.txt
+Total: 5317, reject: 39, net: 5278, reject rate: 0.73%
+  Reject breakdown: empty: 0, weak: 39
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr42_filtered.txt
+Total: 5312, reject: 41, net: 5271, reject rate: 0.77%
+  Reject breakdown: empty: 3, weak: 38
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr43_filtered.txt
+Total: 3538, reject: 95, net: 3443, reject rate: 2.69%
+  Reject breakdown: empty: 3, weak: 92
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr44_filtered.txt
+Total: 1684, reject: 111, net: 1573, reject rate: 6.59%
+  Reject breakdown: empty: 4, weak: 107
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr45_filtered.txt
+Total: 1325, reject: 86, net: 1239, reject rate: 6.49%
+  Reject breakdown: empty: 4, weak: 82
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr46_filtered.txt
+Total: 930, reject: 101, net: 829, reject rate: 10.86%
+  Reject breakdown: empty: 5, weak: 96
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr47_filtered.txt
+Total: 1296, reject: 121, net: 1175, reject rate: 9.34%
+  Reject breakdown: empty: 4, weak: 117
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr48_filtered.txt
+Total: 1379, reject: 126, net: 1253, reject rate: 9.14%
+  Reject breakdown: empty: 3, weak: 123
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr49_filtered.txt
+Total: 1244, reject: 82, net: 1162, reject rate: 6.59%
+  Reject breakdown: empty: 2, weak: 80
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr50_filtered.txt
+Total: 1876, reject: 101, net: 1775, reject rate: 5.38%
+  Reject breakdown: empty: 5, weak: 96
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr51_filtered.txt
+Total: 2556, reject: 123, net: 2433, reject rate: 4.81%
+  Reject breakdown: empty: 6, weak: 117
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr52_filtered.txt
+Total: 2951, reject: 105, net: 2846, reject rate: 3.56%
+  Reject breakdown: empty: 1, weak: 104
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr53_filtered.txt
+Total: 2487, reject: 167, net: 2320, reject rate: 6.71%
+  Reject breakdown: empty: 11, weak: 156
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr54_filtered.txt
+Total: 2397, reject: 299, net: 2098, reject rate: 12.47%
+  Reject breakdown: empty: 14, weak: 285
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr55_filtered.txt
+Total: 1698, reject: 242, net: 1456, reject rate: 14.25%
+  Reject breakdown: empty: 15, weak: 227
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr56_filtered.txt
+Total: 1283, reject: 233, net: 1050, reject rate: 18.16%
+  Reject breakdown: empty: 6, weak: 227
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr57_filtered.txt
+Total: 831, reject: 158, net: 673, reject rate: 19.01%
+  Reject breakdown: empty: 11, weak: 147
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr58_filtered.txt
+Total: 462, reject: 66, net: 396, reject rate: 14.29%
+  Reject breakdown: empty: 2, weak: 64
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr59_filtered.txt
+Total: 642, reject: 60, net: 582, reject rate: 9.35%
+  Reject breakdown: empty: 5, weak: 55
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr60_filtered.txt
+Total: 613, reject: 46, net: 567, reject rate: 7.50%
+  Reject breakdown: empty: 3, weak: 43
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr61_filtered.txt
+Total: 652, reject: 23, net: 629, reject rate: 3.53%
+  Reject breakdown: empty: 1, weak: 22
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr62_filtered.txt
+Total: 2209, reject: 23, net: 2186, reject rate: 1.04%
+  Reject breakdown: empty: 2, weak: 21
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr63_filtered.txt
+Total: 1903, reject: 31, net: 1872, reject rate: 1.63%
+  Reject breakdown: empty: 1, weak: 30
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr64_filtered.txt
+Total: 767, reject: 26, net: 741, reject rate: 3.39%
+  Reject breakdown: empty: 0, weak: 26
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr65_filtered.txt
+Total: 1483, reject: 39, net: 1444, reject rate: 2.63%
+  Reject breakdown: empty: 3, weak: 36
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr66_filtered.txt
+Total: 4025, reject: 63, net: 3962, reject rate: 1.57%
+  Reject breakdown: empty: 4, weak: 59
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr67_filtered.txt
+Total: 2250, reject: 66, net: 2184, reject rate: 2.93%
+  Reject breakdown: empty: 5, weak: 61
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr68_filtered.txt
+Total: 892, reject: 77, net: 815, reject rate: 8.63%
+  Reject breakdown: empty: 5, weak: 72
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr69_filtered.txt
+Total: 801, reject: 169, net: 632, reject rate: 21.10%
+  Reject breakdown: empty: 20, weak: 149
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr70_filtered.txt
+Total: 1621, reject: 85, net: 1536, reject rate: 5.24%
+  Reject breakdown: empty: 3, weak: 82
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr71_filtered.txt
+Total: 953, reject: 109, net: 844, reject rate: 11.44%
+  Reject breakdown: empty: 17, weak: 92
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG3-10_7of15ul_fr72_filtered.txt
+Total: 1871, reject: 185, net: 1686, reject rate: 9.89%
+  Reject breakdown: empty: 17, weak: 168
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr01_filtered.txt
+Total: 2204, reject: 75, net: 2129, reject rate: 3.40%
+  Reject breakdown: empty: 2, weak: 73
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr02_filtered.txt
+Total: 1264, reject: 158, net: 1106, reject rate: 12.50%
+  Reject breakdown: empty: 12, weak: 146
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr03_filtered.txt
+Total: 1452, reject: 139, net: 1313, reject rate: 9.57%
+  Reject breakdown: empty: 3, weak: 136
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr04_filtered.txt
+Total: 1645, reject: 93, net: 1552, reject rate: 5.65%
+  Reject breakdown: empty: 5, weak: 88
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr05_filtered.txt
+Total: 1602, reject: 100, net: 1502, reject rate: 6.24%
+  Reject breakdown: empty: 3, weak: 97
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr06_filtered.txt
+Total: 1781, reject: 98, net: 1683, reject rate: 5.50%
+  Reject breakdown: empty: 4, weak: 94
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr07_filtered.txt
+Total: 2333, reject: 93, net: 2240, reject rate: 3.99%
+  Reject breakdown: empty: 8, weak: 85
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr08_filtered.txt
+Total: 1726, reject: 140, net: 1586, reject rate: 8.11%
+  Reject breakdown: empty: 7, weak: 133
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr09_filtered.txt
+Total: 2058, reject: 107, net: 1951, reject rate: 5.20%
+  Reject breakdown: empty: 11, weak: 96
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr10_filtered.txt
+Total: 2326, reject: 85, net: 2241, reject rate: 3.65%
+  Reject breakdown: empty: 9, weak: 76
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr11_filtered.txt
+Total: 2114, reject: 76, net: 2038, reject rate: 3.60%
+  Reject breakdown: empty: 7, weak: 69
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr12_filtered.txt
+Total: 2202, reject: 56, net: 2146, reject rate: 2.54%
+  Reject breakdown: empty: 2, weak: 54
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr13_filtered.txt
+Total: 2428, reject: 73, net: 2355, reject rate: 3.01%
+  Reject breakdown: empty: 4, weak: 69
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr14_filtered.txt
+Total: 2409, reject: 54, net: 2355, reject rate: 2.24%
+  Reject breakdown: empty: 2, weak: 52
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr15_filtered.txt
+Total: 2494, reject: 24, net: 2470, reject rate: 0.96%
+  Reject breakdown: empty: 3, weak: 21
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr16_filtered.txt
+Total: 2469, reject: 38, net: 2431, reject rate: 1.54%
+  Reject breakdown: empty: 4, weak: 34
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr17_filtered.txt
+Total: 2610, reject: 32, net: 2578, reject rate: 1.23%
+  Reject breakdown: empty: 1, weak: 31
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr18_filtered.txt
+Total: 2818, reject: 27, net: 2791, reject rate: 0.96%
+  Reject breakdown: empty: 1, weak: 26
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr19_filtered.txt
+Total: 3095, reject: 32, net: 3063, reject rate: 1.03%
+  Reject breakdown: empty: 3, weak: 29
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr20_filtered.txt
+Total: 3226, reject: 29, net: 3197, reject rate: 0.90%
+  Reject breakdown: empty: 3, weak: 26
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr21_filtered.txt
+Total: 3218, reject: 43, net: 3175, reject rate: 1.34%
+  Reject breakdown: empty: 2, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr22_filtered.txt
+Total: 3387, reject: 36, net: 3351, reject rate: 1.06%
+  Reject breakdown: empty: 0, weak: 36
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr23_filtered.txt
+Total: 3120, reject: 38, net: 3082, reject rate: 1.22%
+  Reject breakdown: empty: 2, weak: 36
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr24_filtered.txt
+Total: 3522, reject: 36, net: 3486, reject rate: 1.02%
+  Reject breakdown: empty: 0, weak: 36
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr25_filtered.txt
+Total: 3477, reject: 42, net: 3435, reject rate: 1.21%
+  Reject breakdown: empty: 1, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr26_filtered.txt
+Total: 3330, reject: 36, net: 3294, reject rate: 1.08%
+  Reject breakdown: empty: 3, weak: 33
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr27_filtered.txt
+Total: 3231, reject: 36, net: 3195, reject rate: 1.11%
+  Reject breakdown: empty: 0, weak: 36
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr28_filtered.txt
+Total: 3106, reject: 21, net: 3085, reject rate: 0.68%
+  Reject breakdown: empty: 0, weak: 21
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr29_filtered.txt
+Total: 2961, reject: 36, net: 2925, reject rate: 1.22%
+  Reject breakdown: empty: 1, weak: 35
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr30_filtered.txt
+Total: 3009, reject: 43, net: 2966, reject rate: 1.43%
+  Reject breakdown: empty: 2, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr31_filtered.txt
+Total: 3106, reject: 36, net: 3070, reject rate: 1.16%
+  Reject breakdown: empty: 4, weak: 32
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr32_filtered.txt
+Total: 3334, reject: 54, net: 3280, reject rate: 1.62%
+  Reject breakdown: empty: 5, weak: 49
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr33_filtered.txt
+Total: 3334, reject: 37, net: 3297, reject rate: 1.11%
+  Reject breakdown: empty: 2, weak: 35
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr34_filtered.txt
+Total: 3140, reject: 33, net: 3107, reject rate: 1.05%
+  Reject breakdown: empty: 2, weak: 31
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr35_filtered.txt
+Total: 3214, reject: 28, net: 3186, reject rate: 0.87%
+  Reject breakdown: empty: 2, weak: 26
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr36_filtered.txt
+Total: 3053, reject: 32, net: 3021, reject rate: 1.05%
+  Reject breakdown: empty: 1, weak: 31
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr37_filtered.txt
+Total: 3010, reject: 19, net: 2991, reject rate: 0.63%
+  Reject breakdown: empty: 0, weak: 19
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr38_filtered.txt
+Total: 2839, reject: 23, net: 2816, reject rate: 0.81%
+  Reject breakdown: empty: 1, weak: 22
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr39_filtered.txt
+Total: 2763, reject: 19, net: 2744, reject rate: 0.69%
+  Reject breakdown: empty: 0, weak: 19
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr40_filtered.txt
+Total: 2724, reject: 35, net: 2689, reject rate: 1.28%
+  Reject breakdown: empty: 1, weak: 34
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr41_filtered.txt
+Total: 2812, reject: 40, net: 2772, reject rate: 1.42%
+  Reject breakdown: empty: 3, weak: 37
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr42_filtered.txt
+Total: 2543, reject: 24, net: 2519, reject rate: 0.94%
+  Reject breakdown: empty: 0, weak: 24
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr43_filtered.txt
+Total: 2751, reject: 33, net: 2718, reject rate: 1.20%
+  Reject breakdown: empty: 0, weak: 33
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr44_filtered.txt
+Total: 2819, reject: 33, net: 2786, reject rate: 1.17%
+  Reject breakdown: empty: 4, weak: 29
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr45_filtered.txt
+Total: 2865, reject: 40, net: 2825, reject rate: 1.40%
+  Reject breakdown: empty: 1, weak: 39
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr46_filtered.txt
+Total: 3405, reject: 51, net: 3354, reject rate: 1.50%
+  Reject breakdown: empty: 2, weak: 49
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr47_filtered.txt
+Total: 3688, reject: 26, net: 3662, reject rate: 0.70%
+  Reject breakdown: empty: 2, weak: 24
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr48_filtered.txt
+Total: 3425, reject: 50, net: 3375, reject rate: 1.46%
+  Reject breakdown: empty: 2, weak: 48
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr49_filtered.txt
+Total: 3136, reject: 46, net: 3090, reject rate: 1.47%
+  Reject breakdown: empty: 1, weak: 45
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr50_filtered.txt
+Total: 2919, reject: 43, net: 2876, reject rate: 1.47%
+  Reject breakdown: empty: 2, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr51_filtered.txt
+Total: 3040, reject: 51, net: 2989, reject rate: 1.68%
+  Reject breakdown: empty: 5, weak: 46
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr52_filtered.txt
+Total: 2737, reject: 43, net: 2694, reject rate: 1.57%
+  Reject breakdown: empty: 2, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr53_filtered.txt
+Total: 2742, reject: 58, net: 2684, reject rate: 2.12%
+  Reject breakdown: empty: 5, weak: 53
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr54_filtered.txt
+Total: 2867, reject: 69, net: 2798, reject rate: 2.41%
+  Reject breakdown: empty: 7, weak: 62
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr55_filtered.txt
+Total: 2591, reject: 41, net: 2550, reject rate: 1.58%
+  Reject breakdown: empty: 0, weak: 41
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr56_filtered.txt
+Total: 2382, reject: 45, net: 2337, reject rate: 1.89%
+  Reject breakdown: empty: 0, weak: 45
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr57_filtered.txt
+Total: 2689, reject: 48, net: 2641, reject rate: 1.79%
+  Reject breakdown: empty: 1, weak: 47
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr58_filtered.txt
+Total: 2025, reject: 53, net: 1972, reject rate: 2.62%
+  Reject breakdown: empty: 1, weak: 52
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr59_filtered.txt
+Total: 2244, reject: 58, net: 2186, reject rate: 2.58%
+  Reject breakdown: empty: 2, weak: 56
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr60_filtered.txt
+Total: 2245, reject: 79, net: 2166, reject rate: 3.52%
+  Reject breakdown: empty: 5, weak: 74
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr61_filtered.txt
+Total: 1926, reject: 61, net: 1865, reject rate: 3.17%
+  Reject breakdown: empty: 4, weak: 57
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr62_filtered.txt
+Total: 1690, reject: 42, net: 1648, reject rate: 2.49%
+  Reject breakdown: empty: 2, weak: 40
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr63_filtered.txt
+Total: 1914, reject: 61, net: 1853, reject rate: 3.19%
+  Reject breakdown: empty: 3, weak: 58
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr64_filtered.txt
+Total: 1685, reject: 64, net: 1621, reject rate: 3.80%
+  Reject breakdown: empty: 4, weak: 60
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr65_filtered.txt
+Total: 1616, reject: 92, net: 1524, reject rate: 5.69%
+  Reject breakdown: empty: 2, weak: 90
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr66_filtered.txt
+Total: 1601, reject: 77, net: 1524, reject rate: 4.81%
+  Reject breakdown: empty: 7, weak: 70
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr67_filtered.txt
+Total: 1352, reject: 86, net: 1266, reject rate: 6.36%
+  Reject breakdown: empty: 11, weak: 75
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr68_filtered.txt
+Total: 1487, reject: 78, net: 1409, reject rate: 5.25%
+  Reject breakdown: empty: 1, weak: 77
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr69_filtered.txt
+Total: 1331, reject: 59, net: 1272, reject rate: 4.43%
+  Reject breakdown: empty: 2, weak: 57
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr70_filtered.txt
+Total: 1222, reject: 90, net: 1132, reject rate: 7.36%
+  Reject breakdown: empty: 5, weak: 85
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr71_filtered.txt
+Total: 1080, reject: 67, net: 1013, reject rate: 6.20%
+  Reject breakdown: empty: 5, weak: 62
+
+LC run: Yan_miR_FASP_20140828_TMT10_200ugIPG37-49_7of15ul_fr72_filtered.txt
+Total: 1189, reject: 38, net: 1151, reject rate: 3.20%
+  Reject breakdown: empty: 2, weak: 36
+
+total PSMs with added reporter ions: 370925
+total PSMs with empty reporter ions: 648
+total PSMs with intensities below cutoff: 10297
+total PSMs with zeroed reporter ions: 10945
+overall reject rate: 2.95%
+length of tmt_intensity_dict: 370925
+length of peptide_dict: 117520
+length of unique_peptide_dict: 113969
+non-redundant peptide sequence count: 104698
+IPG3_peptide_results_9.txt
+..number of psms (scans): 188654
+IPG37_peptide_results_9.txt
+..number of psms (scans): 179037
+length peptide_sets_dict is: 8465

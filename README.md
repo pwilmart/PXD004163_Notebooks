@@ -13,9 +13,13 @@ The repository has the usual PAW pipeline results and log files. There are also 
 
 [PXD004163_comparisons_3.7-4.9](https://pwilmart.github.io/PXD004163_Notebooks/PXD004163_comparisons_3.7-4.9.html)
 
+I added an analysis of the Quantitative Summary data from the Mascot blog with a similar notebook:
+
+[PXD004163_comparisons_Mascot](https://pwilmart.github.io/PXD004163_Notebooks/PXD004163_comparisons_Mascot.html)
+
 ---
 
 Phil Wilmarth <br />
 PSR core <br />
 OHSU <br />
-June 21, 2020
+June 24, 2020
